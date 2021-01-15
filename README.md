@@ -1,1 +1,1 @@
-# -
+＃-刚开始用Java爬虫爬教务系统系统，但爬到的数据只有一部分，后来发现教务系统是JS动态渲染的，爬虫爬不到。然后改爬接口（http：// jwgls3-cust-edu- cn-s.webvpn.cust.edu.cn:8118/api/CommonApi/GetFileContentById?sf_request_type=ajax），出现500状态码，经排查得知还需要Post payload才行，然后我用Postman成功爬到课表数据，Java的代码还没找到怎么把Content-Type改为application/json，所以还没写好，然后课表还没存数据库，我需要再学习下Maven和Java再写Java函数才行
